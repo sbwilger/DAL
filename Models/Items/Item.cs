@@ -17,6 +17,7 @@ namespace sbwilger.DAL.Models.Items
         public string Name { get; set; }
         public string Description { get; set; }
         public BaseStats AttackStat { get; set; }
+        public DamageTypes DamageType { get; set; }
         public int MinDamage { get; set; }
         public int MaxDamage { get; set; }
         public int Price { get; set; }
