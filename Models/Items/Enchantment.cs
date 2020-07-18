@@ -6,7 +6,11 @@ namespace sbwilger.DAL.Models.Items
 {
     public enum EnchantmentTypes
     {
-
+        Acid,
+        Cold,
+        Fire,
+        Poison,
+        Stun
     }
     public struct Enchantment
     {
