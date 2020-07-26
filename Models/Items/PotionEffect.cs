@@ -4,8 +4,8 @@ using System.Text;
 
 namespace sbwilger.DAL.Models.Items
 {
-    class Ingredient : Item
+    public enum PotionEffect
     {
-        public PotionEffect[] effects = new PotionEffect[4];
+
     }
 }
