@@ -63,3 +63,10 @@ namespace sbwilger.DAL.Models.Items
         Weakness_to_Shock
     }
 }
+
+public class PotionEffect
+{
+    public float BaseCost { get; set; }
+    public int Base_Potency { get; set; }
+    public int Base_Duration { get; set; }
+}
